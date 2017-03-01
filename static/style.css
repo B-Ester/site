@@ -1,0 +1,66 @@
+.conta {
+    height: 11120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 55px;
+}
+
+.conta .art {
+    height: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 100px;
+    color: indigo;
+}
+
+.conta .title {
+    height: 200px;
+    width: 1250px;
+    color: indigo;
+}
+
+.hello {
+    margin-top: 75px;
+    color: crimson;
+    font-style: italic;
+}
+
+.title {
+    height: 300px;
+    width: 1250px;
+}
+.st {
+    margin-top: 75px;
+}
+
+.img {
+   width: 150px;
+    height: 90px;
+}
+
+.time {
+    width: 225px;
+    height: 35px;
+    color: darkgoldenrod;
+
+}
+.comment {
+    height: 100px;
+    width: 750px;
+    color: indigo;
+    margin-left: 125px;
+}
+.laek {
+    background-color: inherit;
+    border-color: transparent;
+    font-style: oblique;
+
+}
+.laek .param {
+    width: 25px;
+    height: 25px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+}
