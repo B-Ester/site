@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404, redirect, render_to_response
+from django.shortcuts import render, get_object_or_404, redirect
 from blog.models import Article, Comments
 from django.core.exceptions import ObjectDoesNotExist
 from django.http import Http404
@@ -8,7 +8,7 @@ from django.contrib import auth
 def home(request):
     articles = Article.objects.all()
     context = {
-        'articles' : articles ,
+        'articles' : articles,
            }
     return render(request, 'blog/home.html', context)
 

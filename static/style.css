@@ -1,8 +1,8 @@
 .conta {
-    height: 11120px;
+    height: 2000px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-top: 55px;
+    margin-top: 125px;
 }
 
 .conta .art {
@@ -21,28 +21,26 @@
 
 .hello {
     margin-top: 75px;
-    color: crimson;
+    color: gold;
     font-style: italic;
 }
 
 .title {
     height: 300px;
     width: 1250px;
+    color: gold;
 }
 .st {
-    margin-top: 75px;
-}
-
-.img {
-   width: 150px;
-    height: 90px;
+    margin-top: 105px;
+    color: orangered;
+    font-style: italic;
 }
 
 .time {
     width: 225px;
     height: 35px;
-    color: blue;
-
+    color: darksalmon;
+    padding-top: 100px;
 }
 .comment {
     height: 100px;
@@ -51,16 +49,30 @@
     margin-left: 125px;
 }
 .laek {
-    background-color: inherit;
-    border-color: transparent;
     font-style: oblique;
+    padding-top: 100px;
 
 }
+.img {
+    width: 500px;
+    height: 300px;
+}
+
+.text-art {
+    height: 100px;
+    width: 1200px;
+}
+
 .laek .param {
     width: 25px;
     height: 25px;
 }
 
-body {
-    background-color: rgba(0, 0, 0, 0.5);
+.log {
+    margin-right: 75px;
+}
+body
+    {
+    background-image: url(http://www.planwallpaper.com/static/images/cool-background.jpg);
+    background-repeat: repeat;
 }
